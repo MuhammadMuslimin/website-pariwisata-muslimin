@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Water Brush', cursive;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.display-5 {
+    font-weight: 800;
+}
+
+.card-text {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.rounded {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text1 {
+    color: #6e6e6e;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-card {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text-cardd {
+    font-size: 20px;
+}
+
+.modal-body .mt-3 {
+    text-align: justify;
+    color: #000000;
+    font-weight: 500;
+}
+
+.dest {
+    color: #000000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.lokasi {
+    margin-top: 3px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+/* footer */
+.footer {
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+
+    .navbar-brand,
+    .nav-link {
+        color: black !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-link {
+        margin-right: 10px;
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #5000ca;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .display-5:hover::after {
+        content: '';
+        display: inline-flex;
+        border-bottom: 3px solid #5000ca;
+        width: 100%;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
